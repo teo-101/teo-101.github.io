@@ -1,0 +1,47 @@
+#Tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  margin-top: 20vh;
+
+  section {
+    height: 50vh;
+    padding: 15px;
+  }
+
+  .tools {
+    width: 10vw;
+  }
+
+  #toolText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Codec Pro', 'Times New Roman', monospace;
+
+    h2 {
+      margin: 0;
+      font-family: inherit;
+      font-size: 3vw;
+      color: white;
+    }
+    
+    p {
+      margin: 3vh 0 auto 0;
+      width: 30%;
+      color: white;
+      font-size: 2vw;
+      font-family: 'Nexa', monospace;
+    }
+  }
+}
+
+#toolImages {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  width: 50%;
+}

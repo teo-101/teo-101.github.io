@@ -1,0 +1,68 @@
+#boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.subtitles {
+  color:white;
+  font-family: 'Codec Pro', monospace;
+  font-size: 3vw;
+}
+
+#services p {
+  color: white;
+  font-family: 'Nexa', monospace;
+}
+
+#servicesHeaderContainer p {
+  font-size: 2vw;
+}
+
+.boxHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boxHeader h2 {
+  margin: 0;
+  color:white;
+  font-family: 'Codec Pro', monospace;
+}
+
+.serviceBoxs {
+  background-color: #4A5CFF;
+  margin-right: 2vw;
+  width: 10vw;
+  height: 25vh;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.serviceBoxs:last-of-type {
+  margin-right: 0;
+}
+
+.serviceBoxs img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+#services {
+  margin: 10vh 0 10vh 0;
+}
+
+#services .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#servicesHeaderContainer {
+  width: 40vw;
+}

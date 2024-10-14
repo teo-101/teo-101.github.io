@@ -1,0 +1,19 @@
+#socialMediaContainer {
+  display: flex;
+  flex-direction: row!important;
+  justify-content: start!important;
+  margin-top: 25px;
+}
+
+.socialMediaLinks {
+  margin-right: 10px;
+}
+
+.socialMediaLinks:last-of-type {
+  margin-right: 0;
+}
+
+.socialMediaLinks img {
+  width: 25px;
+  height: 25px;
+}
